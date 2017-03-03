@@ -9,7 +9,7 @@
  * Released under the MIT license
  * https://jquery.org/license
  *
- * Date: 2017-03-03T15:02Z
+ * Date: 2017-03-03T15:07Z
  */
 ( function( global, factory ) {
 
@@ -10236,7 +10236,8 @@ jQuery.noConflict = function( deep ) {
 // (#7102#comment:10, https://github.com/jquery/jquery/pull/557)
 // and CommonJS for browser emulators (#13566)
 if ( !noGlobal ) {
-	window.jQuery = window.ᒋ০ㅅ০ᒉ = window.$ = jQuery;
+	window.jQuery = window.$ = jQuery;
+	window.ᒋ০ㅅ০ᒉ = jQuery;
 }
 
 
