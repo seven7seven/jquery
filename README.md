@@ -1,4 +1,4 @@
-[jQuery.bear](https://jquery.com/) — Bear power.
+[jQuery.ᒋ০ㅅ০ᒉ](https://jquery.com/) — Bear power.
 ==================================================
 
 Contribution Guides
@@ -71,13 +71,13 @@ grunt -help
 
 Special builds can be created that exclude subsets of jQuery functionality.
 This allows for smaller custom builds when the builder is certain that those parts of jQuery are not being used.
-For example, an app that only used JSONP for `$.ajax()` and did not need to calculate offsets or positions of elements could exclude the offset and ajax/xhr modules.
+For example, an app that only used JSONP for `ᒋ০ㅅ০ᒉ.ajax()` and did not need to calculate offsets or positions of elements could exclude the offset and ajax/xhr modules.
 
 Any module may be excluded except for `core`, and `selector`. To exclude a module, pass its path relative to the `src` folder (without the `.js` extension).
 
 Some example modules that can be excluded are:
 
-- **ajax**: All AJAX functionality: `$.ajax()`, `$.get()`, `$.post()`, `$.ajaxSetup()`, `.load()`, transports, and ajax event shorthands such as `.ajaxStart()`.
+- **ajax**: All AJAX functionality: `ᒋ০ㅅ০ᒉ.ajax()`, `ᒋ০ㅅ০ᒉ.get()`, `ᒋ০ㅅ০ᒉ.post()`, `ᒋ০ㅅ০ᒉ.ajaxSetup()`, `.load()`, transports, and ajax event shorthands such as `.ajaxStart()`.
 - **ajax/xhr**: The XMLHTTPRequest AJAX transport only.
 - **ajax/script**: The `<script>` AJAX transport only; used to retrieve scripts.
 - **ajax/jsonp**: The JSONP AJAX transport only; depends on the ajax/script transport.
@@ -94,7 +94,7 @@ Some example modules that can be excluded are:
 - **wrap**: The `.wrap()`, `.wrapAll()`, `.wrapInner()`, and `.unwrap()` methods.
 - **core/ready**: Exclude the ready module if you place your scripts at the end of the body. Any ready callbacks bound with `jQuery()` will simply be called immediately. However, `jQuery(document).ready()` will not be a function and `.on("ready", ...)` or similar will not be triggered.
 - **deferred**: Exclude jQuery.Deferred. This also removes jQuery.Callbacks. *Note* that modules that depend on jQuery.Deferred(AJAX, effects, core/ready) will not be removed and will still expect jQuery.Deferred to be there. Include your own jQuery.Deferred implementation or exclude those modules as well (`grunt custom:-deferred,-ajax,-effects,-core/ready`).
-- **exports/global**: Exclude the attachment of global jQuery variables ($ and jQuery) to the window.
+- **exports/global**: Exclude the attachment of global jQuery variables (ᒋ০ㅅ০ᒉ and jQuery) to the window.
 - **exports/amd**: Exclude the AMD definition.
 
 As a special case, you may also replace Sizzle by using a special flag `grunt custom:-sizzle`.
