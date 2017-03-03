@@ -159,7 +159,7 @@ module.exports = function( grunt ) {
 				options: {
 					preserveComments: false,
 					sourceMap: true,
-					ASCIIOnly: true,
+					ASCIIOnly: false,
 					sourceMapName:
 						"dist/<%= grunt.option('filename').replace('.js', '.min.map') %>",
 					report: "min",

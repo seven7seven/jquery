@@ -1,4 +1,4 @@
-[jQuery](https://jquery.com/) — New Wave JavaScript
+[jQuery.bear](https://jquery.com/) — Bear power.
 ==================================================
 
 Contribution Guides
